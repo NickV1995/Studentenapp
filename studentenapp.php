@@ -38,18 +38,18 @@ echo 'Gelukt!';
           <a class="nav-link active" aria-current="page" href="studentenapp.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active" aria-current="page" href="studentenapp.php">Studenten</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link active" aria-current="page" href="studentenapp.php">Docenten</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-            aria-expanded="false">Dropdown</a>
+            aria-expanded="false">Vakken</a>
           <ul class="dropdown-menu" aria-labelledby="dropdown01">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Vakkenpakket A</a></li>
+            <li><a class="dropdown-item" href="#">Vakkenpakket B</a></li>
+            <li><a class="dropdown-item" href="#">Vakkenpakket C</a></li>
           </ul>
         </li>
       </ul>
@@ -64,9 +64,8 @@ echo 'Gelukt!';
 <main class="container">
 
   <div class="starter-template text-center py-5 px-3">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
-      mostly barebones HTML document.</p>
+    <h1>Welkom op de Studenten webapplicatie</h1>
+    <p class="lead">Op deze applicatie kun je studenten, docenten en vakkenpakketten bijhouden.</p>
   </div>
 
 </main><!-- /.container -->

@@ -1,14 +1,3 @@
-<?php
-
-require_once 'pdo.php';
-
-$db = verbinden();
-if(is_null($db)) die('<h1>Database verbinding mislukt...');
-
-echo 'Gelukt!';
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,22 +15,21 @@ echo 'Gelukt!';
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="studentenapp.index.php"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="studentenapp.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="studentenapp.index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="studentenapp.php">Studenten</a>
+          <a class="nav-link active" aria-current="page" href="studentenapp.studenten.php">Studenten</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="studentenapp.php">Docenten</a>
+          <a class="nav-link active" aria-current="page" href="studentenapp.docenten.php">Docenten</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
@@ -60,21 +48,3 @@ echo 'Gelukt!';
     </div>
   </div>
 </nav>
-
-<main class="container">
-
-  <div class="starter-template text-center py-5 px-3">
-    <h1>Welkom op de Studenten webapplicatie</h1>
-    <p class="lead">Op deze applicatie kun je studenten, docenten en vakkenpakketten bijhouden.</p>
-  </div>
-
-</main><!-- /.container -->
-
-
-<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-
-</body>
-
-</html>

@@ -14,7 +14,7 @@ include 'includes/header.php';
 <main class="container">
 
   <div class="starter-template text-center py-5 px-3">
-    <h1>Welkom op de Studenten webapplicatie</h1>
+    <h1>Welkom op de Studenten Webapplicatie</h1>
     <p class="lead">Op deze applicatie kun je studenten, docenten en vakkenpakketten bijhouden.</p>
   </div>
 

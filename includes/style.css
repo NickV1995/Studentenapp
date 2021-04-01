@@ -2,3 +2,19 @@
   font-size: 25px;
   margin-right: 10px;
 }
+
+.fa-edit {
+  color: #ffc107;
+}
+
+.fa-edit:hover {
+  color: #d39e00;
+}
+
+.fa-trash-alt {
+  color: #dc3545;
+}
+
+.fa-trash-alt:hover {
+  color: #c82333;
+}
